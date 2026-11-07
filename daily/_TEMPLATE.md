@@ -1,13 +1,14 @@
-# Daily Log — YYYY-MM-DD
+# Security Research Log — YYYY-MM-DD
 
-- CVE:
-- Platform: Android
-- Category: rce | reverse_shell | info_leak
-- Trigger: browser | file
-- Outcome:
-- Folder: android/<category>/<CVE>/
-- Public PoC: yes | no
-- Status: pass | blocked | replaced
-- Evidence:
-- Blockers:
-- Next:
+- Issue or advisory:
+- Platform / product:
+- Vulnerability class:
+- Impact summary:
+- Affected versions:
+- Fixed version or mitigation:
+- Status: open | mitigated | resolved
+- References:
+- Evidence (sanitized):
+- Notes / next steps:
+
+Do not include exploit code, credentials, personal data, or sensitive target details.
