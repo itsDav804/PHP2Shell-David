@@ -1,4 +1,4 @@
-# Security Research Log — 2026-11-12
+# Security Research Log — 2026-11-13
 
 - Issue or advisory: CVE-2026-109618
 - Platform / product: PHP
