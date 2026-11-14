@@ -1,4 +1,4 @@
-# Security Research Log — 2026-11-13
+# Security Research Log — 2026-11-14
 
 - Issue or advisory: CVE-2026-109618
 - Platform / product: PHP
@@ -9,6 +9,6 @@
 - Status: mitigated
 - References: https://watchtowr.com/intelligence/php-cve-2026-109618-faq/
 - Evidence (sanitized):
-- Notes / next steps: demonstration still on trial for evidence
+- Notes / next steps: continuing demonstrationfor evidence
 
 Do not include exploit code, credentials, personal data, or sensitive target details.
