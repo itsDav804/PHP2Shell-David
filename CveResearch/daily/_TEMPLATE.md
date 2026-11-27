@@ -1,13 +1,13 @@
-# Security Research Log — 2026-11-16
+# Security Research Log — 2026-11-27
 
-- Issue or advisory: CVE-2026-109618
-- Platform / product: PHP
+- Issue or advisory: CVE-2026-20896
+- Platform / product: Gitea docker
 - Vulnerability class: Critical 9.8
-- Impact summary: CVE-2026-109618 (PHP2Shell) is a critical remote code execution vulnerability affecting PHP versions 8.2 through 8.5. The flaw enables unauthenticated attackers to execute arbitrary system commands and corrupt worker memory across widespread deployments such as WordPress, Laravel, and Drupal.
-- Affected versions: PHP version before 8.5.12, 8.4.27, 8.3.36 and 8.2.35
+- Impact summary: It allows unauthenticated attackers to impersonate any user—including administrators—when reverse-proxy authentication is enabled
+- Affected versions: gitea docker 1.26.2
 - Fixed version or mitigation: mitigated
 - Status: mitigated
-- References: https://watchtowr.com/intelligence/php-cve-2026-109618-faq/
+- References: https://www.google.com/search?q=cve+2026+20896&oq=cve+2026+20896&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABjvBTIKCAIQABiABBiiBDIHCAMQABjvBTIKCAQQABiABBiiBDIGCAUQRRg8MgYIBhBFGD0yBggHEEUYPdIBCDQwMjZqMGo3qAIAsAIA&sourceid=chrome&source=chrome.ob&ie=UTF-8
 - Evidence (sanitized):
 - Notes / next steps: continuing demonstrationfor evidence
 
