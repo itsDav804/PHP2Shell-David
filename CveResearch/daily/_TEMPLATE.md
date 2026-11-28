@@ -1,13 +1,13 @@
-# Security Research Log — 2026-11-16
+# Security Research Log — 2026-11-28
 
-- Issue or advisory: CVE-2026-109618
-- Platform / product: PHP
-- Vulnerability class: Critical 9.8
-- Impact summary: CVE-2026-109618 (PHP2Shell) is a critical remote code execution vulnerability affecting PHP versions 8.2 through 8.5. The flaw enables unauthenticated attackers to execute arbitrary system commands and corrupt worker memory across widespread deployments such as WordPress, Laravel, and Drupal.
-- Affected versions: PHP version before 8.5.12, 8.4.27, 8.3.36 and 8.2.35
+- Issue or advisory: CVE-2026-45627
+- Platform / product: Arcane
+- Vulnerability class: High 8.2
+- Impact summary: CVE-2026-45627 is a high-severity (CVSS 8.2, CWE-79) reflected cross-site scripting (XSS) vulnerability in Arcane (versions prior to 1.19.0), a web interface for managing Docker containers, images, networks, and volumes
+- Affected versions: Arcane 1.92.0
 - Fixed version or mitigation: mitigated
 - Status: mitigated
-- References: https://watchtowr.com/intelligence/php-cve-2026-109618-faq/
+- References: https://www.google.com/search?q=cve+2026+45627&oq=cve+2026+45627&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABjvBTIKCAIQABiABBiiBDIGCAMQRRg9MgYIBBBFGD0yBggFEEUYPNIBCDM4NTdqMGo3qAIAsAIA&sourceid=chrome&source=chrome.ob&ie=UTF-8
 - Evidence (sanitized):
 - Notes / next steps: continuing demonstrationfor evidence
 
